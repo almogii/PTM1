@@ -56,7 +56,6 @@ public class StatLib {
 		float a = cov(arr_x,arr_y)/var(arr_x);
 		float b = avg(arr_y) -( a * avg(arr_x));
 		Line B = new Line(a, b);
-		int aaaa = 5;
 		return B;
 	}
 
